@@ -1,7 +1,5 @@
 ![Uber Signature](ubersignature.png)
 
-![Signature Demo](sign.gif)
-
 Mimicking pen-on-paper signatures with a touch screen presents a difficult set of challenges.
 
 The rate touch events are emitted does not provide enough information to mimick the same smooth line the user made with their finger. Simply drawing straight lines between the touch points will yield an unnatural looking line made of discrete sections - especially when the user is moving their finger fast, as the number of touch events stays constant, providing even fewer points per unit of distance moved.
@@ -23,3 +21,5 @@ Instantiate a UBSignatureDrawingViewController, optionally with an image that wi
 ```
 
 The view controller can either be presented directly or added as a child view controller. The view can be positioned using auto-layout or the frame set to any needed size. The backing signature image will resize to fit.
+
+![Signature Demo](sign.gif)
