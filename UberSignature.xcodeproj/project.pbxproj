@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810B06181ECA2A2400B241B1 /* UBSignatureBezierProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 810B060F1ECA2A2400B241B1 /* UBSignatureBezierProvider.m */; };
+		810B06191ECA2A2400B241B1 /* UBSignatureDrawingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 810B06111ECA2A2400B241B1 /* UBSignatureDrawingModel.m */; };
+		810B061A1ECA2A2400B241B1 /* UBSignatureDrawingModelAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 810B06131ECA2A2400B241B1 /* UBSignatureDrawingModelAsync.m */; };
+		810B061B1ECA2A2400B241B1 /* UIBezierPath+UBWeightedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 810B06151ECA2A2400B241B1 /* UIBezierPath+UBWeightedPoint.m */; };
+		810B061C1ECA2A2400B241B1 /* UBSignatureDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810B06171ECA2A2400B241B1 /* UBSignatureDrawingViewController.m */; };
 		810E634A1DC4E42B0014DF13 /* UBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810E63491DC4E42B0014DF13 /* UBDemoViewController.m */; };
-		810E634D1DC4EA680014DF13 /* UBSignatureDrawingModelAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 810E634C1DC4EA680014DF13 /* UBSignatureDrawingModelAsync.m */; };
 		81D1561B1DC11259000EC97C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1561A1DC11259000EC97C /* main.m */; };
 		81D1561E1DC11259000EC97C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1561D1DC11259000EC97C /* AppDelegate.m */; };
-		81D156211DC11259000EC97C /* UBSignatureDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D156201DC11259000EC97C /* UBSignatureDrawingViewController.m */; };
 		81D156261DC11259000EC97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D156251DC11259000EC97C /* Assets.xcassets */; };
 		81D156291DC11259000EC97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D156271DC11259000EC97C /* LaunchScreen.storyboard */; };
-		81D1564F1DC11285000EC97C /* UBSignatureDrawingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D156471DC11285000EC97C /* UBSignatureDrawingModel.m */; };
-		81D156501DC11285000EC97C /* UIBezierPath+UBWeightedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D1564A1DC11285000EC97C /* UIBezierPath+UBWeightedPoint.m */; };
-		81D156551DC25084000EC97C /* UBSignatureBezierProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D156541DC25084000EC97C /* UBSignatureBezierProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,28 +30,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810B060D1ECA2A2400B241B1 /* UBCGPointHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCGPointHelpers.h; sourceTree = "<group>"; };
+		810B060E1ECA2A2400B241B1 /* UBSignatureBezierProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureBezierProvider.h; sourceTree = "<group>"; };
+		810B060F1ECA2A2400B241B1 /* UBSignatureBezierProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureBezierProvider.m; sourceTree = "<group>"; };
+		810B06101ECA2A2400B241B1 /* UBSignatureDrawingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingModel.h; sourceTree = "<group>"; };
+		810B06111ECA2A2400B241B1 /* UBSignatureDrawingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingModel.m; sourceTree = "<group>"; };
+		810B06121ECA2A2400B241B1 /* UBSignatureDrawingModelAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingModelAsync.h; sourceTree = "<group>"; };
+		810B06131ECA2A2400B241B1 /* UBSignatureDrawingModelAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingModelAsync.m; sourceTree = "<group>"; };
+		810B06141ECA2A2400B241B1 /* UIBezierPath+UBWeightedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+UBWeightedPoint.h"; sourceTree = "<group>"; };
+		810B06151ECA2A2400B241B1 /* UIBezierPath+UBWeightedPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+UBWeightedPoint.m"; sourceTree = "<group>"; };
+		810B06161ECA2A2400B241B1 /* UBSignatureDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingViewController.h; sourceTree = "<group>"; };
+		810B06171ECA2A2400B241B1 /* UBSignatureDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingViewController.m; sourceTree = "<group>"; };
 		810E63481DC4E42B0014DF13 /* UBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBDemoViewController.h; sourceTree = "<group>"; };
 		810E63491DC4E42B0014DF13 /* UBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBDemoViewController.m; sourceTree = "<group>"; };
-		810E634B1DC4EA680014DF13 /* UBSignatureDrawingModelAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingModelAsync.h; sourceTree = "<group>"; };
-		810E634C1DC4EA680014DF13 /* UBSignatureDrawingModelAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingModelAsync.m; sourceTree = "<group>"; };
 		81D156161DC11259000EC97C /* UberSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D1561A1DC11259000EC97C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81D1561C1DC11259000EC97C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81D1561D1DC11259000EC97C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81D1561F1DC11259000EC97C /* UBSignatureDrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingViewController.h; sourceTree = "<group>"; };
-		81D156201DC11259000EC97C /* UBSignatureDrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingViewController.m; sourceTree = "<group>"; };
 		81D156251DC11259000EC97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D156281DC11259000EC97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81D1562A1DC11259000EC97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D1562F1DC11259000EC97C /* UberSignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberSignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D156351DC11259000EC97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81D1563E1DC11285000EC97C /* UBCGPointHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCGPointHelpers.h; sourceTree = "<group>"; };
-		81D156471DC11285000EC97C /* UBSignatureDrawingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingModel.m; sourceTree = "<group>"; };
-		81D156481DC11285000EC97C /* UBSignatureDrawingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingModel.h; sourceTree = "<group>"; };
-		81D156491DC11285000EC97C /* UIBezierPath+UBWeightedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+UBWeightedPoint.h"; sourceTree = "<group>"; };
-		81D1564A1DC11285000EC97C /* UIBezierPath+UBWeightedPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+UBWeightedPoint.m"; sourceTree = "<group>"; };
-		81D156531DC25084000EC97C /* UBSignatureBezierProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureBezierProvider.h; sourceTree = "<group>"; };
-		81D156541DC25084000EC97C /* UBSignatureBezierProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureBezierProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,20 +72,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		810E634E1DC63D170014DF13 /* Internal */ = {
+		810B060B1ECA2A2400B241B1 /* Signature */ = {
 			isa = PBXGroup;
 			children = (
-				81D1563E1DC11285000EC97C /* UBCGPointHelpers.h */,
-				810E634B1DC4EA680014DF13 /* UBSignatureDrawingModelAsync.h */,
-				810E634C1DC4EA680014DF13 /* UBSignatureDrawingModelAsync.m */,
-				81D156481DC11285000EC97C /* UBSignatureDrawingModel.h */,
-				81D156471DC11285000EC97C /* UBSignatureDrawingModel.m */,
-				81D156531DC25084000EC97C /* UBSignatureBezierProvider.h */,
-				81D156541DC25084000EC97C /* UBSignatureBezierProvider.m */,
-				81D156491DC11285000EC97C /* UIBezierPath+UBWeightedPoint.h */,
-				81D1564A1DC11285000EC97C /* UIBezierPath+UBWeightedPoint.m */,
+				810B060C1ECA2A2400B241B1 /* Internal */,
+				810B06161ECA2A2400B241B1 /* UBSignatureDrawingViewController.h */,
+				810B06171ECA2A2400B241B1 /* UBSignatureDrawingViewController.m */,
 			);
-			name = Internal;
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		810B060C1ECA2A2400B241B1 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				810B060D1ECA2A2400B241B1 /* UBCGPointHelpers.h */,
+				810B060E1ECA2A2400B241B1 /* UBSignatureBezierProvider.h */,
+				810B060F1ECA2A2400B241B1 /* UBSignatureBezierProvider.m */,
+				810B06101ECA2A2400B241B1 /* UBSignatureDrawingModel.h */,
+				810B06111ECA2A2400B241B1 /* UBSignatureDrawingModel.m */,
+				810B06121ECA2A2400B241B1 /* UBSignatureDrawingModelAsync.h */,
+				810B06131ECA2A2400B241B1 /* UBSignatureDrawingModelAsync.m */,
+				810B06141ECA2A2400B241B1 /* UIBezierPath+UBWeightedPoint.h */,
+				810B06151ECA2A2400B241B1 /* UIBezierPath+UBWeightedPoint.m */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 		81D1560D1DC11259000EC97C = {
@@ -113,7 +123,7 @@
 				81D1561D1DC11259000EC97C /* AppDelegate.m */,
 				810E63481DC4E42B0014DF13 /* UBDemoViewController.h */,
 				810E63491DC4E42B0014DF13 /* UBDemoViewController.m */,
-				81D156511DC113F9000EC97C /* Signature */,
+				810B060B1ECA2A2400B241B1 /* Signature */,
 				81D156251DC11259000EC97C /* Assets.xcassets */,
 				81D156271DC11259000EC97C /* LaunchScreen.storyboard */,
 				81D1562A1DC11259000EC97C /* Info.plist */,
@@ -136,16 +146,6 @@
 				81D156351DC11259000EC97C /* Info.plist */,
 			);
 			path = UberSignatureTests;
-			sourceTree = "<group>";
-		};
-		81D156511DC113F9000EC97C /* Signature */ = {
-			isa = PBXGroup;
-			children = (
-				81D1561F1DC11259000EC97C /* UBSignatureDrawingViewController.h */,
-				81D156201DC11259000EC97C /* UBSignatureDrawingViewController.m */,
-				810E634E1DC63D170014DF13 /* Internal */,
-			);
-			name = Signature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,14 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D156501DC11285000EC97C /* UIBezierPath+UBWeightedPoint.m in Sources */,
-				81D156211DC11259000EC97C /* UBSignatureDrawingViewController.m in Sources */,
 				81D1561E1DC11259000EC97C /* AppDelegate.m in Sources */,
 				810E634A1DC4E42B0014DF13 /* UBDemoViewController.m in Sources */,
+				810B061B1ECA2A2400B241B1 /* UIBezierPath+UBWeightedPoint.m in Sources */,
+				810B06191ECA2A2400B241B1 /* UBSignatureDrawingModel.m in Sources */,
 				81D1561B1DC11259000EC97C /* main.m in Sources */,
-				81D156551DC25084000EC97C /* UBSignatureBezierProvider.m in Sources */,
-				81D1564F1DC11285000EC97C /* UBSignatureDrawingModel.m in Sources */,
-				810E634D1DC4EA680014DF13 /* UBSignatureDrawingModelAsync.m in Sources */,
+				810B061C1ECA2A2400B241B1 /* UBSignatureDrawingViewController.m in Sources */,
+				810B06181ECA2A2400B241B1 /* UBSignatureBezierProvider.m in Sources */,
+				810B061A1ECA2A2400B241B1 /* UBSignatureDrawingModelAsync.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
