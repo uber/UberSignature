@@ -22,7 +22,7 @@
 
 import UIKit
 
-protocol SignatureDrawingViewControllerDelegate: class {
+public protocol SignatureDrawingViewControllerDelegate: class {
     /// Callback when isEmpty changes, due to user drawing or reset() being called.
     func signatureDrawingViewControllerIsEmptyDidChange(controller: SignatureDrawingViewController, isEmpty: Bool)
 }
@@ -30,23 +30,23 @@ protocol SignatureDrawingViewControllerDelegate: class {
 /**
  A view controller that allows the user to draw a signature and provides additional functionality.
  */
-class SignatureDrawingViewController: UIViewController {
+public class SignatureDrawingViewController: UIViewController {
    
     /**
      Initializer
      - parameter image: An optional starting image for the signature.
      */
-    init(image: UIImage? = nil) {
+    public init(image: UIImage? = nil) {
         super.init(nibName: nil, bundle: nil)
     }
     
     /// Use init(image:) instead.
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     /// Returns an image of the signature (with a transparent background).
-    var fullSignatureImage: UIImage? {
+    public var fullSignatureImage: UIImage? {
         return model.fullSignatureImage
     }
     
@@ -54,7 +54,7 @@ class SignatureDrawingViewController: UIViewController {
      The color of the signature.
      Defaults to black.
      */
-    var signatureColor: UIColor {
+    public var signatureColor: UIColor {
         get {
             return model.signatureColor
         }
@@ -79,17 +79,17 @@ class SignatureDrawingViewController: UIViewController {
     }
     
     /// Delegate for callbacks.
-    weak var delegate: SignatureDrawingViewControllerDelegate?
+    public weak var delegate: SignatureDrawingViewControllerDelegate?
     
     /// Resets the signature.
-    func reset() {
+    public func reset() {
         model.reset()
         updateViewFromModel()
     }
     
     // MARK: UIViewController
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.clear
@@ -108,7 +108,7 @@ class SignatureDrawingViewController: UIViewController {
             ])
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         if let image = presetImage {
@@ -119,7 +119,7 @@ class SignatureDrawingViewController: UIViewController {
         }
     }
     
-    override func viewDidLayoutSubviews() {
+    override public func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         model.imageSize = view.bounds.size
@@ -128,12 +128,12 @@ class SignatureDrawingViewController: UIViewController {
     
     // MARK: UIResponder
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         updateModel(withTouches: touches, shouldEndContinousLine: true)
     }
     
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesMoved(touches, with: event)
         updateModel(withTouches: touches, shouldEndContinousLine: false)
     }
