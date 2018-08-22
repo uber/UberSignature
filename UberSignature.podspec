@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'UberSignature'
-  spec.version          = '1.0.0'
+  spec.version          = '1.0.1'
   spec.license          = { :type => 'BSD' }
   spec.homepage         = 'https://github.com/uber/UberSignature'
   spec.author           = 'Uber'
@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   end
   spec.subspec 'Swift' do |cs|
     cs.source_files = 'Sources/Swift/**/*.swift'
+    cs.swift_version = '4.1'
   end
   spec.default_subspecs = 'Swift'
   spec.framework        = 'CoreGraphics', 'Foundation', 'UIKit'
