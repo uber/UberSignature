@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.4'
+
+use_frameworks!
+
+target :'UberSignature' do
+  pod 'UberSignature/ObjC', :path => '../..'
+end
