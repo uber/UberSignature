@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
   spec.default_subspecs = 'Swift'
   spec.framework        = 'CoreGraphics', 'Foundation', 'UIKit'
   spec.requires_arc     = true
-  spec.ios.deployment_target = '11.4'
+  spec.ios.deployment_target = '10.0'
   spec.swift_version = '4.1'
 end
