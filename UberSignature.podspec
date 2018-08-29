@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'UberSignature'
-  spec.version          = '1.0.2'
+  spec.version          = '1.0.3'
   spec.license          = { :type => 'BSD' }
   spec.homepage         = 'https://github.com/uber/UberSignature'
   spec.author           = 'Uber'
